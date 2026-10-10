@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.nav-link{
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);   
+}
+
+.dropdown-menu{
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+}   
+
+.navbar{
+    border-bottom: 2px solid white;
+}
+
+
+.btc{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc2{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc:hover{
+    background-color: transparent !important;
+    color: white;
+}
+
+.btc2:hover{
+    background-color: transparent !important;
+    color: rgb(255, 64, 64);
+}
+
+::placeholder{
+    color: transparent;
+}
+
+.label{
+    pointer-events: none !important;
+    left: 5px !important;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    color: whitesmoke;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid whitesmoke !important;
+}
+
+button {
+    margin-top: 24px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px 0 10px 0;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+#but:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+#but2:hover{
+    box-shadow: 0 0 20px rgb(255, 69, 69);
+    border-color: rgb(255, 69, 69);
+    text-shadow: 0 0 20px rgb(255, 69, 69);
+    color: rgb(255, 69, 69);
+}
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+
+.perfil{
+    text-align: center;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+.fp {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.divg {
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    max-width: 800px; 
+    text-align: left;
+    padding: 30px 40px 20px 40px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 20px;
+}
+
+.col-lg-3{
+    text-align: center;
+    
+}
+
+.col-lg-9{
+    text-align: center !important;
+}
+
+#eliminar{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+}
+
+footer{
+    margin-top:60px;
+    width: 100%;
+    background-color: black !important;
+    color: white;
+    height: 100px;
+}

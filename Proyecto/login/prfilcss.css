@@ -1,0 +1,240 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+
+
+.nav-link{
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);   
+}
+
+.dropdown-menu{
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+}   
+
+.navbar{
+    border-bottom: 2px solid white;
+}
+
+.btc{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc2{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc:hover{
+    background-color: transparent !important;
+    color: white;
+}
+
+.btc2:hover{
+    background-color: transparent !important;
+    color: rgb(255, 64, 64);
+}
+
+
+
+.fpg{
+    width: 120px;
+    height: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0; 
+}
+
+.divfp{
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 8px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.divfpjr{
+    text-align: center;
+}
+
+.datosgym{
+    margin-top: 30px;
+    padding: 10px 20px 20px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.selectpunt{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+
+}
+
+.selectpunt option{
+    background-color: transparent;
+    color:black;
+}
+
+.bpunt{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.bpunt:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.botonasistencia{
+    margin-top: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px 0 10px 0;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.botonasistencia:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.verubicacion{
+    transition: all 0.5s ease;
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+}
+
+.verubicacion:hover{
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.200);
+    color: white;
+    text-decoration: none !important;
+}
+
+.divdesc{
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 8px;
+    margin-top: 40px !important;
+    margin: 0 20px 30px 20px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+textarea{
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+}
+
+.fotos{
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 20px 20px 20px;
+    margin: 0 20px 20px 20px;
+    margin-top: 10px !important;
+}
+
+
+.com{
+    width: 95% !important;
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    padding: 20px 30px 30px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.comjr{
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+.bcom{
+    margin-top: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px 0 10px 0;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.bcom:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+img{
+    height: 500px;
+}

@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-11-09T20:05:18.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mM7n6bxBCxGuAxI1n6fD" version="22.1.0" type="device">
+  <diagram name="Página-1" id="b7p8UhNkcsL__LkOCOOz">
+    <mxGraphModel dx="733" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-1" value="Dueño Gym" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R2FGHuC-Ob2bCVApm-rC-1">
+          <mxGeometry x="45" y="60" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-2" value="Interfaz de Cuenta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R2FGHuC-Ob2bCVApm-rC-2">
+          <mxGeometry x="45" y="60" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-8" value="Pulsar el botón de &quot;Administrar Perfil&quot;" style="html=1;verticalAlign=bottom;endArrow=classic;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="214.9999999999999" y="160" as="sourcePoint" />
+            <mxPoint x="505" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-9" value="" style="html=1;whiteSpace=wrap;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-14" value="Enviar a la página de modificación de perfil&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="505" y="180" as="sourcePoint" />
+            <mxPoint x="214.9999999999999" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-15" value="Pulsar el botón &quot;Ver estadisticas del gimnasio&quot;" style="html=1;verticalAlign=bottom;endArrow=classic;curved=0;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="214.9999999999999" y="210" as="sourcePoint" />
+            <mxPoint x="505" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-16" value="Enviar a la página de estadísticas" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="505" y="229.66" as="sourcePoint" />
+            <mxPoint x="214.9999999999999" y="229.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=default;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;[¿Desea visualizar las&lt;br&gt;&amp;nbsp;estadísticas del gimnasio?]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-19" value="Base de datos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R2FGHuC-Ob2bCVApm-rC-19">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R2FGHuC-Ob2bCVApm-rC-21" value="Cargar estadísticas correspondientes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="705" y="210" as="sourcePoint" />
+            <mxPoint x="515" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

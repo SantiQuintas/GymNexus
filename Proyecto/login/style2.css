@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(61, 0, 0) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke; 
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.container{
+    padding-right: 0 !important ;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.nav-link{
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+
+.filters{
+    padding-left: 20px;
+    padding-top: 10px;
+    left: -50px;
+    color: whitesmoke;
+    border-right: 2px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.520);
+    border-radius: 4px;
+}
+
+.bf{
+    margin-top: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px 0 10px 0;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+}
+
+.gympp{
+    border-radius: 50% !important;
+}
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+.bf:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+
+.col-lg-3{
+    left: 0;
+}

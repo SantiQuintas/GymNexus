@@ -1,0 +1,156 @@
+ :after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: linear-gradient(
+    to bottom right,
+    rgb(31, 31, 31)0%,
+    rgb(0, 42, 61)40%,
+    rgb(0, 85, 124)60%,
+    rgb(32, 32, 32)90%
+    );
+    background-size: 200% 200%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 10s linear infinite alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+
+.imag{
+    text-align: center;
+  }
+  
+  img{
+    margin-top: 10px;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+form{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 320px;
+    margin-bottom: 120px;
+    height: 1200px;
+    width: 520px;
+    background-color:transparent;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100px 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 25px 40px;
+}
+
+form h3{
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+.inpbx input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.inpbx .icon{
+    position: absolute;
+    right: 8px;
+    color: whitesmoke;
+    line-height: 57px;
+}
+
+
+::placeholder{
+    color: transparent;
+}
+
+.inpbx{
+    position: relative;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 8%;
+}
+
+.inpbx label{
+    position: absolute;
+    /*top: 50%;*/
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: aliceblue;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/*
+.inpbx input:focus~label,
+.inpbx input:valid~label {
+    top: -5%;
+}*/
+
+button{ 
+    margin-top: 13%;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+}
+
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+button:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.adherirte{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.adherirte a{
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.adherirte a:hover{
+    text-shadow: 0 0 14px var(--colorbt);
+    color: var(--colorbt);
+}

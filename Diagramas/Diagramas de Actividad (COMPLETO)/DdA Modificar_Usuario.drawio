@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T19:13:48.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hzsbhl7fEiRF5v7k_f1L" version="21.6.8" type="device">
+  <diagram name="Página-1" id="eo82tQIIKrUS6tiNv2Ri">
+    <mxGraphModel dx="1257" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YQS9mLbhEHy7xDZntA_z-106" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YQS9mLbhEHy7xDZntA_z-107" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="YQS9mLbhEHy7xDZntA_z-106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-1" value="Pulsar botón modificar cuenta" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uq4R2KouMePIcH_-IryG-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-6" value="Modificar parametros" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="165" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq4R2KouMePIcH_-IryG-7" target="uq4R2KouMePIcH_-IryG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-7" value="Los parámetros modificables son:&lt;br&gt;Nombre y Apellido&lt;br&gt;Teléfono&lt;br&gt;Contraseña&lt;br&gt;Foto de perfil" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="210" width="185" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-8" value="Desea modificar sus datos?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="133" y="-20" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uq4R2KouMePIcH_-IryG-8" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="383" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-10" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uq4R2KouMePIcH_-IryG-8" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="225" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-11" value="Volver a la página principal" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uq4R2KouMePIcH_-IryG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="10" as="targetPoint" />
+            <mxPoint x="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uq4R2KouMePIcH_-IryG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="120" as="targetPoint" />
+            <mxPoint x="130" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq4R2KouMePIcH_-IryG-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="105" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

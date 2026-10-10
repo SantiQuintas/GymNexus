@@ -1,0 +1,108 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+/* Estilo para los títulos */
+h1, h2, h3 {
+    color: whitesmoke; /* Cambio de color de título a blanco */
+}
+
+/* Estilo para las etiquetas */
+label {
+    color: whitesmoke;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: transparent;
+    outline: none;
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la imagen de perfil */
+img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0; 
+
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 400px; /* Reducir el ancho del formulario */
+    text-align: left;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 10px;
+}
+
+/* Estilo para el enlace */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    text-shadow: 0 0 14px #007bff;
+    color: #007bff;
+}

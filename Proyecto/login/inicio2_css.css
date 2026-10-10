@@ -1,0 +1,229 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke; 
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.nav-link{
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);   
+}
+
+.dropdown-menu{
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+}   
+
+.navbar{
+    border-bottom: 2px solid white;
+}
+
+.btc{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc2{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc:hover{
+    background-color: transparent !important;
+    color: white;
+}
+
+.btc2:hover{
+    background-color: transparent !important;
+    color: rgb(255, 64, 64);
+}
+
+.filters{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: whitesmoke;
+    border-right: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.520);
+    border-radius: 0 0 6px 0;
+    height: 100%;
+}
+
+.input[type="text"]{
+    background-color: transparent !important;
+
+}
+
+.bf{
+    margin-top: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px 0 10px 0;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.bf:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.bvm{
+    margin-top: 24px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0 10px 0 10px;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.bvm:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.gympp{
+    border-radius: 50% !important;
+}
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+.col-lg-3{
+    left: 0;
+}
+
+.gym-container .col-lg-4 {
+    margin: 0 0 20px 0; /* Espacio inferior entre los elementos */
+    flex-basis: calc(33.33% - 40px); /* Ancho del 33.33% y resta 40px de espaciado entre ellos */
+    box-sizing: border-box; /* Para incluir el margen en el cálculo del ancho */
+}
+
+/*Arranca footer*/
+
+footer{
+    height: 202px;
+    width: 100%;
+    background-color: rgb(22, 22, 22) !important;
+    color: white;
+}
+
+.col-lg-1{
+    margin-left:0 !important; 
+    padding-left:0 !important;
+}
+
+ul{
+    list-style: none;
+}
+
+#copy{
+    margin-top:auto;
+    color: rgb(78, 78, 78);
+}
+
+.soc-link{
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.links{
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+}
+
+.links:hover{
+    color:rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+#ig:hover{
+    color: rgb(249, 72, 255);
+}
+
+#fb:hover{
+    color: rgb(58, 94, 255);
+}
+
+#in:hover{
+    color: rgb(75, 168, 255);
+}
+
+/*termina footer*/
+
+
+
+
+@media (max-width: 991px) {
+
+    .filters{
+        width: 100% !important;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    select{
+        width: 50% !important;
+    }
+
+    .bf{
+        
+        padding: 10px 28px 10px 28px;
+    }
+
+    .col-lg-3{
+        width: 100% !important;
+    }
+}

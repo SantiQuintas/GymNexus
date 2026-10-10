@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2023-11-09T21:50:08.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BwyFdH0TBLNJ-oOkJo6u" version="22.1.0" type="device">
+  <diagram name="Página-1" id="gVZmH3COzFcwDaTSH90J">
+    <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-1" value="Dueño de Gym" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="120" y="50" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-1" vertex="1">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-1" vertex="1">
+          <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-1" vertex="1">
+          <mxGeometry x="45" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-2" value="Interfaz de Modificar Cuenta" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="379" y="50" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-2" vertex="1">
+          <mxGeometry x="45" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-2" vertex="1">
+          <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="bi9wSSU--CJGla-iKfDQ-2" vertex="1">
+          <mxGeometry x="45" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-5" value="" style="endArrow=block;html=1;rounded=0;endFill=1;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bi9wSSU--CJGla-iKfDQ-3" target="bi9wSSU--CJGla-iKfDQ-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="280" as="sourcePoint" />
+            <mxPoint x="359" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-7" value="Pulsar botón &quot;Modificar cuenta&quot;()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="194" y="99" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-8" value="" style="endArrow=open;html=1;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="159" as="sourcePoint" />
+            <mxPoint x="168.5" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-9" value="Mostrar interfaz()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="136" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="89" y="185" width="650" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-11" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bi9wSSU--CJGla-iKfDQ-10" target="bi9wSSU--CJGla-iKfDQ-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="280" as="sourcePoint" />
+            <mxPoint x="359" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-15" value="" style="endArrow=openThin;html=1;rounded=0;endFill=0;entryX=0.5;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bi9wSSU--CJGla-iKfDQ-12" target="bi9wSSU--CJGla-iKfDQ-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="220" as="sourcePoint" />
+            <mxPoint x="419" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-16" value="Modificar parámetros()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="228.25" y="194" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-17" value="" style="endArrow=block;html=1;rounded=0;endFill=1;" parent="1" target="bi9wSSU--CJGla-iKfDQ-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="241" as="sourcePoint" />
+            <mxPoint x="419" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-20" value="Pulsar botón &quot;Aplicar Cambios&quot;()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="194" y="219" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-22" value="" style="endArrow=open;html=1;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="267" as="sourcePoint" />
+            <mxPoint x="171.5" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-23" value="Guardar Cambios()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="233.25" y="245" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-24" value="" style="endArrow=block;html=1;rounded=0;endFill=1;entryX=0.5;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.5" y="314" as="sourcePoint" />
+            <mxPoint x="428.5" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-25" value="Volver a la página principal()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="208.5" y="293" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-26" value="" style="endArrow=open;html=1;rounded=0;endFill=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.5" y="353" as="sourcePoint" />
+            <mxPoint x="168" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-27" value="Mostrar interfaz()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="239.5" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-31" value="[Si desea modificar sus datos]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="755" y="219" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bi9wSSU--CJGla-iKfDQ-32" value="&lt;i&gt;Los parámetros modificables son:&lt;br&gt;Imágenes promocionales&lt;br&gt;Información de contacto&lt;br&gt;Descripción del perfil&lt;br&gt;Información acerca del equipamiento disponible, horarios y servicios&lt;br&gt;Precios y planes que disponen&lt;/i&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="20" width="255" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hTXdL8VkqIJhA_XgJ4Zh-1" value="Base de datos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="560" y="50" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="hTXdL8VkqIJhA_XgJ4Zh-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="hTXdL8VkqIJhA_XgJ4Zh-1" vertex="1">
+          <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTXdL8VkqIJhA_XgJ4Zh-4" value="Actualizar información()" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="bi9wSSU--CJGla-iKfDQ-14" target="hTXdL8VkqIJhA_XgJ4Zh-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="510" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTXdL8VkqIJhA_XgJ4Zh-7" value="[Si no desea modificar sus datos]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="755" y="330" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

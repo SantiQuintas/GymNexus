@@ -1,0 +1,120 @@
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(7, 32, 44) 40%,
+        rgb(0, 35, 51) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+#valgympromedio{
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+#eliminargym{
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+select option{
+    color: black !important;
+}
+
+h2, h3 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: rgb(158, 158, 158);
+    border: 1px solid rgb(158, 158, 158);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

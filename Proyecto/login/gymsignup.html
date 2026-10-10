@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymNexus | Inscribir un Gimnasio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="gymsignstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        color: white;
+    }
+</style>
+
+<body>
+    <form action="gymsignup.php" method="POST">
+        <div class="imag">
+            <img src="logo.png" alt="logo.png">
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <label for="username">Email</label>
+                    <input type="text" placeholder="Email" id="username" name="email" required>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <label for="username">Nombre de Usuario</label>
+                    <input type="text" placeholder="Nombre de usuario" id="username" name="user" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <label for="username">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="username" name="nombre" required>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <label for="username">Apellido</label>
+                    <input type="text" placeholder="Apellido" id="username" name="apellido" required>
+                </div>
+            </div>
+        </div>
+        <div class="inpbx">
+            <span class="icon"><ion-icon name="folder"></ion-icon></span>
+            <label for="username">CUIL </label>
+            <input type="text" placeholder="CUIL" id="username" name="cuil" required>
+        </div>
+        <div class="inpbx">
+            <label for="username">Nombre del gimnasio</label>
+            <span class="icon"><ion-icon name="pricetag"></ion-icon></span>
+            <input type="text" placeholder="Nombre del gimnasio" id="username" name="nombregym" required>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="location-sharp"></ion-icon></span>
+                    <label for="direccion">Dirección</label>
+                    <input type="text" placeholder="Dirección" id="direccion" name="direccion" required>
+                    <!-- Agrega un contenedor para las sugerencias -->
+                    <div id="sugerencias-direccion" class="sugerencias"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <label for="username">Telefono</label>
+                    <input type="text" placeholder="Telefono" id="username" name="telefono" required>
+                </div>
+            </div>
+        </div>
+        <div class="inpbx">
+            <span class="icon"><ion-icon name="time"></ion-icon></span>
+            <label for="username">Horario</label>
+            <input type="text" placeholder="Horarios" id="username" name="horario" required>
+        </div>
+        <div class="inpbx">
+            <span class="icon"><ion-icon name="barbell"></ion-icon></span>
+            <label for="username">Servicios ofrecidos</label>
+            <input type="text" placeholder="Servicios" id="servicios" name="servicios" required>
+            <!-- Agrega un contenedor para las sugerencias -->
+            <div id="sugerencias-servicios" class="sugerencias"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="logo-usd"></ion-icon></span>
+                    <label for="username">Precio mensual</label>
+                    <input type="text" placeholder="Mensualidad" id="username" name="mensualidad" required>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="logo-usd"></ion-icon></span>
+                    <label for="username">Precio diario</label>
+                    <input type="text" placeholder="Día" id="username" name="dia" required>
+                </div>
+            </div>
+        </div>
+        <div class="inpbx">
+            <span class="icon"><ion-icon name="barbell"></ion-icon></span>
+            <label for="equipamiento">Equipamiento disponible</label>
+            <input type="text" placeholder="Equipamiento" id="equipamiento" name="equipamiento" required>
+            <!-- Agrega un contenedor para las sugerencias -->
+            <div id="sugerencias-equipamiento" class="sugerencias"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <label for="password">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="contraeseña" name="contra" required>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inpbx" style="margin-top: 17%;">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <label for="password">Repetir contraseña</label>
+                    <input type="password" placeholder="Repetir contraseña" id="contraeseña" name="ccontra" required>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="margin-top: 50px; border-radius: 30px 0 30px 0; margin-bottom: 10px;">Inscribir mi Gimnasio</button>
+
+    <p class="adherirte">Ya estas inscripto?<a href="login.html"> Hace click acá</a></p>
+
+</form>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script>
+    // Datos locales con sugerencias de direcciones
+    const sugerenciasDirecciones = [
+    "Av. Rivadavia 1000, Ramos Mejía, Buenos Aires",
+    "Av. de Mayo 500, Ramos Mejía, Buenos Aires",
+    "Belgrano 300, Ramos Mejía, Buenos Aires",
+    "San Martín 700, Ramos Mejía, Buenos Aires",
+    "Laprida 400, Ramos Mejía, Buenos Aires",
+    "Alsina 200, Ramos Mejía, Buenos Aires",
+    "Bolívar 800, Ramos Mejía, Buenos Aires",
+    "Av. Gaona 1200, Ramos Mejía, Buenos Aires",
+    "Lincoln 600, Ramos Mejía, Buenos Aires",
+    "Av. Presidente Perón 900, Ramos Mejía, Buenos Aires",
+    "Güemes 300, Ramos Mejía, Buenos Aires",
+    "Av. San Juan 700, Ramos Mejía, Buenos Aires",
+    "Pueyrredón 400, Ramos Mejía, Buenos Aires",
+    "Ituzaingó 200, Ramos Mejía, Buenos Aires",
+    "Catamarca 500, Ramos Mejía, Buenos Aires",
+    "Av. Alvear 600, Ramos Mejía, Buenos Aires",
+    "Gorriti 300, Ramos Mejía, Buenos Aires",
+    "Av. Villegas 800, Ramos Mejía, Buenos Aires",
+    "Tucumán 400, Ramos Mejía, Buenos Aires",
+    "25 de Mayo 200, Ramos Mejía, Buenos Aires",
+    // Agrega más direcciones de gimnasios en Ramos Mejía según sea necesario
+    ];
+
+    // Datos locales con sugerencias de servicios
+    const sugerenciasServicios = [
+    "Clases de Yoga",
+    "Entrenamiento con pesas",
+    "Aeróbicos",
+    "Pilates",
+    "Zumba",
+    "Entrenamiento funcional",
+    "Entrenamiento personalizado",
+    "Clases de spinning",
+    "CrossFit",
+    "Natación",
+    "Boxeo",
+    "Entrenamiento de alta intensidad (HIIT)",
+    "Clases de baile",
+    "Pilates acuático",
+    "Meditación",
+    "Nutricionista en el sitio",
+    "Sauna y spa",
+    "Asesoramiento nutricional",
+    "Programas de pérdida de peso",
+    "Clases para niños",
+    "Entrenamiento al aire libre",
+    // Agrega más servicios según las ofertas de tu gimnasio
+    ];
+
+    // Datos locales con sugerencias de equipamiento
+    const sugerenciasEquipamiento = [
+    "Máquinas de cardio (cintas de correr, bicicletas estáticas)",
+    "Máquinas de pesas",
+    "Bancos de pesas",
+    "Máquinas multifunción",
+    "Pesas libres (mancuernas, barras)",
+    "Máquinas de poleas",
+    "Cintas de resistencia",
+    "Pelotas de ejercicios",
+    "Colchonetas de yoga",
+    "Bicicletas de spinning",
+    "Equipamiento de CrossFit",
+    "Piscina",
+    "Sauna",
+    "Jacuzzi",
+    "Salón de clases",
+    "Equipos de boxeo (sacos, guantes)",
+    "Equipos de entrenamiento funcional",
+    "Caminadoras elípticas",
+    "Escaladoras",
+    "Plataformas vibratorias",
+    "Máquinas de remo",
+    "Equipo de rehabilitación",
+    "Equipamiento de escalada en roca",
+    // Agrega más equipamiento según las instalaciones de tu gimnasio
+    ];
+
+    const direccionInput = document.getElementById('direccion');
+    const serviciosInput = document.getElementById('servicios');
+    const equipamientoInput = document.getElementById('equipamiento');
+    const sugerenciasDireccionDiv = document.getElementById('sugerencias-direccion');
+    const sugerenciasServiciosDiv = document.getElementById('sugerencias-servicios');
+    const sugerenciasEquipamientoDiv = document.getElementById('sugerencias-equipamiento');
+
+    // Función para mostrar sugerencias en un div específico
+    function mostrarSugerencias(input, sugerencias, sugerenciasDiv) {
+        const valorInput = input.value.toLowerCase();
+        sugerenciasDiv.innerHTML = '';
+
+        const sugerenciasFiltradas = sugerencias.filter(sugerencia =>
+            sugerencia.toLowerCase().includes(valorInput)
+        );
+
+        sugerenciasFiltradas.forEach(sugerencia => {
+            const sugerenciaElement = document.createElement('div');
+            sugerenciaElement.textContent = sugerencia;
+            sugerenciaElement.classList.add('sugerencia');
+            sugerenciaElement.addEventListener('click', () => {
+                input.value = sugerencia;
+                sugerenciasDiv.innerHTML = ''; // Borra las sugerencias después de seleccionar una
+            });
+            sugerenciasDiv.appendChild(sugerenciaElement);
+        });
+    }
+
+    // Event listeners para los campos de entrada
+    direccionInput.addEventListener('input', () => {
+        mostrarSugerencias(direccionInput, sugerenciasDirecciones, sugerenciasDireccionDiv);
+    });
+
+    serviciosInput.addEventListener('input', () => {
+        mostrarSugerencias(serviciosInput, sugerenciasServicios, sugerenciasServiciosDiv);
+    });
+
+    equipamientoInput.addEventListener('input', () => {
+        mostrarSugerencias(equipamientoInput, sugerenciasEquipamiento, sugerenciasEquipamientoDiv);
+    });
+</script>
+</body>
+
+</html>

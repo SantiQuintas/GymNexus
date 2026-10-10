@@ -1,0 +1,144 @@
+:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: linear-gradient(
+    to bottom right,
+    rgb(31, 31, 31)0%,
+    rgb(0, 42, 61)40%,
+    rgb(0, 85, 124)60%,
+    rgb(32, 32, 32)90%
+    );
+    background-size: 200% 200%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    animation: movimiento 10s linear infinite alternate;
+
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+
+
+.imag{
+  text-align: center;
+}
+
+img{
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+form{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 190px;
+    margin-bottom: 100px;
+    height: 800px;
+    width: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 100px 10px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.inpbx{
+    position: relative;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 8%;
+}
+
+.inpbx label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: aliceblue;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inpbx input:focus~label,
+.inpbx input:valid~label {
+    top: -5px;
+}
+
+.inpbx input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.inpbx .icon{
+    position: absolute;
+    right: 8px;
+    color: whitesmoke;
+    line-height: 57px;
+}
+
+::placeholder{
+    color: transparent;
+}
+
+button{ 
+    margin-top: 13%;
+    width: 100%;
+    padding: 5% 0;
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+}
+
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+button:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.registrarse a{
+    transition: all 0.5s ease;
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.registrarse a:hover{
+    text-shadow: 0 0 14px var(--colorbt);
+    color: var(--colorbt);
+}   

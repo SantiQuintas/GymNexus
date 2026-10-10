@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(31, 31, 31) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke; 
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+
+button{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    box-shadow: 0 0 20px var(--colorbt);
+    border-color: var(--colorbt);
+    text-shadow: 0 0 20px var(--colorbt);
+    color: var(--colorbt);
+}
+
+.divgral {
+    width: 480px;
+    height: auto;
+    border: 2px solid rgba(190, 190, 190, 0.473);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 50px 4px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+
+:root{
+    --colorbt: rgb(0, 178, 248);
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}

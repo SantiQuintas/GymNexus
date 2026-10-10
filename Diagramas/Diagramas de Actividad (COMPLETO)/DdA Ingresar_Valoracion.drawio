@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2023-11-07T18:39:49.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="6U29UkemwufZxBZ3ZA-X" version="22.0.8" type="device">
+  <diagram name="Página-1" id="fogUkspUOEFAM5Xc7c83">
+    <mxGraphModel dx="672" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-3" value="Pulsar botón &quot;Comenzar mi búsqueda de gimnasio&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="130" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-8" value="&lt;i&gt;Este diagrama tiene por asegurado que el usuario está ingresado en el sistema.&lt;/i&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-10" value="Elegir el gimnasio deseado y pulsar el botón &quot;Ver más&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="339" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398.5" y="310" as="targetPoint" />
+            <mxPoint x="398.5" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-16" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-17" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-16" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-16" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-19" value="[¿Desea valoar el gimnasio?]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-20" value="Continuar explorando la página del gimnasio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0g_wDsxw9ImTLXT3IJRM-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="330" as="targetPoint" />
+            <mxPoint x="720" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-23" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="315" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-24" value="Seleccionar valoración" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398.5" y="490" as="targetPoint" />
+            <mxPoint x="398.5" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-27" value="Valorar el gimnasio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="339" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-34" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-35" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-34" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-36" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="0g_wDsxw9ImTLXT3IJRM-34" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.5" y="570" as="targetPoint" />
+            <mxPoint x="399.5" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-39" value="[¿Desea ingresar un comentario?]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="555" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-44" value="Referirse al caso de uso &quot;Ingresar Comentario&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-46" value="&lt;i&gt;El sistema de valoración se basa una puntuación del 1 al 5, el cual se encuentra representado con estrellas&lt;br&gt;&lt;/i&gt;(★★★★★)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-50" value="c★" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rotation=-225;" vertex="1" parent="1">
+          <mxGeometry x="384" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g_wDsxw9ImTLXT3IJRM-51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.6" y="770" as="targetPoint" />
+            <mxPoint x="399.6" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

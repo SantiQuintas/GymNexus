@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-11-06T00:35:05.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jZpiZJ3FwfqiStLhFGTd" version="22.0.8" type="device">
+  <diagram name="Page-1" id="S9dqNfNzZ8jweIqnLLmA">
+    <mxGraphModel dx="880" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="eGh5rIGEyxeJub_PGYqc-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-15" value="Hacer clic en &quot;Cuenta&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="eGh5rIGEyxeJub_PGYqc-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-19" value="Tocar el boton &quot;administrar perfil&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-24" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="225" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-25" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="eGh5rIGEyxeJub_PGYqc-24" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="470" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="eGh5rIGEyxeJub_PGYqc-24" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="265" y="500" as="targetPoint" />
+            <mxPoint x="240" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.5" y="350" as="targetPoint" />
+            <mxPoint x="264.5" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-29" value="[¿Desea ver las estadisticas &lt;br&gt;del gimnasio?]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-30" value="Scrollear con el mouse haciala parte inferior de la pagina" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eGh5rIGEyxeJub_PGYqc-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.5" y="610" as="targetPoint" />
+            <mxPoint x="264.5" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-32" value="Hacer clic en &quot;Ver estadisticas del gimnasio&quot;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="355" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.5" y="720" as="targetPoint" />
+            <mxPoint x="265" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGh5rIGEyxeJub_PGYqc-36" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

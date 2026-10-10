@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(20, 30, 39) 0%,
+        rgb(0, 42, 61) 40%,
+        rgb(0, 85, 124) 60%,
+        rgb(32, 32, 32) 90%
+    );
+    background-size: 200% 200%;
+    min-height: 100vh; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento 5s linear infinite alternate;
+    color: whitesmoke; 
+    overflow-x: hidden;
+    width: 100%;
+    padding-right: 0 !important;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+/*Estilos Navbar*/
+
+
+.nav-link{
+    transition: all 0.5s ease;
+    
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);   
+}
+
+.dropdown-menu{
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+}   
+
+.navbar{
+    border-bottom: 2px solid white;
+}
+
+.btc{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc2{
+    background-color: transparent;
+    color: rgb(138, 138, 138); 
+    border:none;
+    transition: all 0.5s ease;
+}
+
+.btc:hover{
+    background-color: transparent !important;
+    color: white;
+}
+
+.btc2:hover{
+    background-color: transparent !important;
+    color: rgb(255, 64, 64);
+}
+
+/*Termina navbar*/
+
+
+/*Arranca footer*/
+
+footer{
+    margin-top: 200px;
+    position: absolute;
+    height: 202px;
+    width: 100% !important;
+    background-color: rgb(22, 22, 22) !important;
+    color: white;
+}
+
+.col-lg-1{
+    margin-left:0 !important; 
+    padding-left:0 !important;
+}
+
+ul{
+    list-style: none;
+}
+
+#copy{
+    margin-top:auto;
+    color: rgb(78, 78, 78);
+}
+
+.soc-link{
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.links{
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+}
+
+.links:hover{
+    color:rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+#ig:hover{
+    color: rgb(249, 72, 255);
+}
+
+#fb:hover{
+    color: rgb(58, 94, 255);
+}
+
+#in:hover{
+    color: rgb(75, 168, 255);
+}
+
+/*termina footer*/
