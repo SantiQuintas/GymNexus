@@ -1,5 +1,5 @@
 # GymNexus
-
+COLABORADORES: Santiago Emanuel Quintas, Lucas Ariel Conde Cardo, Facundo Nicolas Uthurralt, Lautaro Julian Garcia y Juan Manuel Bernardis Pousadas
 <h2>Introducción</h2>
 <p>
 Actualmente, el cuidado de la salud y el bienestar físico son una prioridad para muchos. Por ello, la práctica regular de ejercicio se ha convertido en una de las actividades más recomendadas para mantener una buena salud y prevenir enfermedades relacionadas con el sedentarismo, como la obesidad.
